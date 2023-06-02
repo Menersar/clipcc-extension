@@ -14,42 +14,42 @@ function registExtensionAPI(api) {
 }
 
 /**
- * Get clipcc-vm instance.
+ * Get scratch-vm instance.
  * @memberof api
  * @returns {ClipCCVM}
  */
 const getVmInstance = () => instance.vm.vm;
 
 /**
- * Get clipcc-gui document.
+ * Get scratch-gui document.
  * @memberof api
  * @returns {Document}
  */
 const getGuiDocument = () => instance.document;
 
 /**
- * Get clipcc-gui window.
+ * Get scratch-gui window.
  * @memberof api
  * @returns {Window}
  */
 const getGuiWindow = () => instance.window;
 
 /**
- * Get clipcc-gui instance.
+ * Get scratch-gui instance.
  * @memberof api
  * @returns {ClipCCGUI}
  */
 const getGuiInstance = () => instance.gui.gui;
 
 /**
- * Get clipcc-block instance.
+ * Get scratch-blocks instance.
  * @memberof api
  * @returns {ClipCCBlock}
  */
 const getBlockInstance = () => instance.blocks;
 
 /**
- * Get clipcc-render instance.
+ * Get scratch-render instance.
  * @memberof api
  * @returns {ClipCCRender}
  */
