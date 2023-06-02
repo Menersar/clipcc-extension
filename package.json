@@ -1,12 +1,12 @@
 {
   "name": "clipcc-extension",
   "version": "0.2.0",
-  "description": "ClipCC extension development kit",
-  "main": "./dist/clipcc-extension.js",
-  "types": "./dist/clipcc-extension.d.ts",
-  "repository": "https://github.com/Clipteam/clipcc-extension.git",
-  "author": "Clip Team",
-  "license": "MIT",
+  "description": "Sidekick extension development / creation kit.",
+  "main": "./dist/sidekick-extension.js",
+  "types": "./dist/sidekick-extension.d.ts",
+  "repository": "https://github.com/Menersar/sidekick-extension.git",
+  "author": "",
+  "license": "BSD-3-Clause",
   "scripts": {
     "prepublishOnly": "NODE_ENV=production yarn run build",
     "build": "rimraf dist && mkdirp dist && webpack --progress --colors --bail",
